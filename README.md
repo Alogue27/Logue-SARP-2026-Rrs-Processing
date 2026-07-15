@@ -5,16 +5,8 @@
 ## Abstract
 Harmful Algal Blooms (HABS) occur due to excessive phytoplankton biomass or the presence of toxin-producing taxa and are a growing threat to coastal ecosystems. The diatom genus Pseudo-nitzschia (PN) can accumulate at high biomass and also produce a neurotoxin, Domoic Acid (DA), which has caused large animal mortality events along the California coast. PN detection presently relies on in situ sampling which is costly, labor-intensive, and offers limited spatial coverage. Remote sensing of HABS is a promising alternative, but has historically been limited by spectral resolution insufficient to distinguish phytoplankton at the taxonomic level required for HAB detection. NASA's recently launched Plankton, Aerosol, Cloud, ocean Ecosystem satellite (PACE) hosts the Ocean Color Instrument (OCI), providing hyperspectral resolution that may enable this distinction. This study uses reflectance and backscatter to identify optical signatures of PN. Cell count data from CalHABMAP at Scripps Pier identified PN bloom periods, and contemporaneous PACE OCI observations of apparent and inherent optical properties were evaluated to determine detection thresholds for PN. Remote sensing reflectance (Rrs) anomalies and backscatter spectra were obtained using the PACE data record. Backscatter is influenced by phytoplankton cell size, shape, and index of refraction, and the Quasi-Analytical Algorithm (QAA) was applied to derive spectral backscatter from Rrs rather than using the polynomial spectral shape invoked by PACE's standard backscatter retrieval. Spectral regions of focus were based on prior literature. Reflectance anomalies revealed a potentially useful feature near 550–600 nm, while backscatter spectra showed slight divergence near 630 nm between high and low abundance days. The results suggest backscatter may confer useful information for detecting PN, in agreement with prior work. Without in situ measurements to separate PN's spectral features from those of co-varying constituents like sediment and chlorophyll, differences in PACE-derived Rrs cannot be fully attributed to PN alone. Future work should investigate in situ backscatter spectra to test the robustness of inverting hyperspectral backscatter to improve PN detection compared to reflectance-or absorption-based remote sensing detection.
 
-## About this template
-
-This template was generated as an example for how to format and upload project code to github. Remember that uploading your code can be an interative process - it doesn't have to be perfect the first time! First focus on getting your code online, then move onto progressively organizing the code. Once you reach the cleaning stage some things to look for include:
-
-- Make sure each chunk of code has a comment or markdown explanation of what is happening in the code
-- Delete code that isn't ever used. It can be hard (emotionally), but it helps the code you are using be more useful.
-- Break your project code into a few different notebooks by analysis step and name them starting with a number. For example: `01_preprocessing.ipynb`, `02_timeseries_analysis.ipynb` and `03_visualization.ipynb`.
-- Keep seperate folders for code and figures
-
-To get even deeper into code cleaning, check out the [Good Research Code Handbook](https://goodresearch.dev/index.html).
+## About Code and Project
+This code loads in clipped PACE granules for the selected bounding box. All downstream notebooks are dependent on the data loading code running. Physat and XQAA notebooks pull from csv files created by data loading . General plotting relies on physat to run
 
 Some notes:
 - If you are using satellite images as part of your analysis they may be too large to upload to github. In that case simply upload your code.
