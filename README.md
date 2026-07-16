@@ -8,6 +8,7 @@ Code Author: Alex Logue, Purdue University
 Contact information: aloguemiya@gmail.com
 
 Graduate Student Mentor: Dorthy Sue Grimmer, Texas A&M University 
+
 Faculty Mentor: Henry Houskeeper, Woods Hole Oceanagraphic Instution
 
 ## Abstract
