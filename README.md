@@ -1,6 +1,8 @@
 # Investigating hyperspectral features of Pseudo-nitzschia blooms using NASA PACE observations
  SARP West Oceans 2026 group
-<img align = "left" src="https://science.nasa.gov/wp-content/uploads/2023/11/sarp-patch.jpeg?w=1280&format=webp" alt="drawing" width="200"/>(https://science.nasa.gov/earth-science/early-career-opportunities/student-airborne-research-program/).
+<img align = "left" src="https://science.nasa.gov/wp-content/uploads/2023/11/sarp-patch.jpeg?w=1280&format=webp" alt="drawing" width="200"/>
+
+(https://science.nasa.gov/earth-science/early-career-opportunities/student-airborne-research-program/).
 
 
 ## Abstract
