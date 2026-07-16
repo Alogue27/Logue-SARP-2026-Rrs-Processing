@@ -12,4 +12,6 @@ This code consists of 3 main notebooks. The first is a data loading one that dow
 
 The Second noebook generates an anomalous Rrs (aRrs) using a physat approach. A median Rrs value is generated from a no PN baseline for each selected chlorphyll bin. This value is then subtracted from the rest of the data to generate aRrs to view and intresting spectral shape fetures. 
 
-The third notebook utilizes a Quasi analytical algorithm(QAA) to generate a backscatter spectrum from Rrs. This project utilizes code from @profxj repositories linked below. Specifically the ocpy and XQAA repositories 
+The third notebook utilizes a Quasi analytical algorithm(QAA) approach to generate a backscatter spectrum from Rrs. This project uses code from @profxj repositories linked below. Specifically the ocpy and XQAA repositories 
+
+https://github.com/ocean-colour
